@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<style>
+     body{
+        background-color: gray;
+    
+    }
+    h1{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 45px;
+        background-color: black;
+        border-radius: 35px;
+        color: beige;
+    }
+    h3{   
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 25px;
+        background-color: black;
+        border-radius: 35px;
+        color: beige;
+    }
+    nav {
+            text-align: center;
+            margin-bottom: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        nav a {
+            display: inline-block;
+            color:beige;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 4px;
+            
+            
+        }
+
+        nav a:hover {
+            background-color: black;
+            color:burlywood;
+        }
+
+</style>
+<body>
+    <h1>CONTATO</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sobre-mim.html">Sobre Mim</a>
+        <a href="formacao.html">Formação</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contato.html">Contato</a>
+    </nav>
+    <h3>QUER ENTRAR EM CONTATO COMIGO?</h3>
+    <form action="" method="post"></form>
+        <table>
+
+            <tr>
+                <th><label for="nome"> NOME:</label></th>
+                <td><input type="text" name="nome" id="nome" required></td>
+            </tr>
+            <tr>
+                <th><label for="email"> E-MAIL:</label></th>
+                <td><input type="email" name="email" id="email" required></td>
+            </tr>
+            <tr>
+                <th><label for="mensagem"> DIGITE SUA MENSAGEM:</label></th>
+                <td><textarea name="msg" rows="10" cols="50" required> </textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>ENVIAR</button></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
